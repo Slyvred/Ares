@@ -1,0 +1,12 @@
+#pragma once
+#include "ConVar.h"
+#include "IBaseClientDLL.h"
+#include "IClientEntityList.h"
+#include "ICvar.h"
+#include "IEngineClient.h"
+#include "Interface.h"
+#include "netvars_manager.h"
+#include "IModelInfoClient.h"
+#include "FrameStageNotify.h"
+#include "CUserCmd.h"
+#include "VirtualMethod.h"

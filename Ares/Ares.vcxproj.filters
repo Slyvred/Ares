@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\SDK">
+      <UniqueIdentifier>{c414da85-6783-4806-b7b6-7354103a38a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\PATTERN SCANNER">
+      <UniqueIdentifier>{ab8d1aff-9c5e-4630-b0a5-98074aaf0953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Inih">
+      <UniqueIdentifier>{06cd55db-4631-46f3-947d-c3c85d435d51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Features">
+      <UniqueIdentifier>{0ccbdd6a-7bf1-40e2-a6b9-6503ad42ab0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Hooks">
+      <UniqueIdentifier>{c10e4f5a-eb35-4f8d-aa14-076a680cc89c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="PATTERN SCANNER\PatternScanner.cpp">
+      <Filter>Fichiers d%27en-tête\PATTERN SCANNER</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Interface.cpp">
+      <Filter>Fichiers d%27en-tête\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\netvars_manager.cpp">
+      <Filter>Fichiers d%27en-tête\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Inih\ini.c">
+      <Filter>Fichiers d%27en-tête\Inih</Filter>
+    </ClCompile>
+    <ClCompile Include="Inih\INIReader.cpp">
+      <Filter>Fichiers d%27en-tête\Inih</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Misc.cpp">
+      <Filter>Fichiers d%27en-tête\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Aim.cpp">
+      <Filter>Fichiers d%27en-tête\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Visuals.cpp">
+      <Filter>Fichiers d%27en-tête\Features</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Hacks.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\ConVar.h">
+      <Filter>Fichiers d%27en-tête\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IBaseClientDLL.h">
+      <Filter>Fichiers d%27en-tête\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IClientEntityList.h">
+      <Filter>Fichiers d%27en-tête\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\ICvar.h">
+      <Filter>Fichiers d%27en-tête\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IEngineClient.h">
+      <Filter>Fichiers d%27en-tête\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Interface.h">
+      <Filter>Fichiers d%27en-tête\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\netvars_manager.h">
+      <Filter>Fichiers d%27en-tête\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\VirtualMethod.h">
+      <Filter>Fichiers d%27en-tête\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="PATTERN SCANNER\PatternScanner.h">
+      <Filter>Fichiers d%27en-tête\PATTERN SCANNER</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDKIncludes.h">
+      <Filter>Fichiers d%27en-tête\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Inih\ini.h">
+      <Filter>Fichiers d%27en-tête\Inih</Filter>
+    </ClInclude>
+    <ClInclude Include="Inih\INIReader.h">
+      <Filter>Fichiers d%27en-tête\Inih</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\IModelInfoClient.h">
+      <Filter>Fichiers d%27en-tête\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\ItemDefinitionIndex.h">
+      <Filter>Fichiers d%27en-tête\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\FrameStageNotify.h">
+      <Filter>Fichiers d%27en-tête\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\Hooks.h">
+      <Filter>Fichiers d%27en-tête\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\CUserCmd.h">
+      <Filter>Fichiers d%27en-tête\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Vector.h">
+      <Filter>Fichiers d%27en-tête\SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
